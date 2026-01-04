@@ -54,12 +54,6 @@ export default function Footer() {
         <div className="mt-8 pt-8 border-t flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
           <p>Copyright(c) 2020. The AI Lab. All rights reserved</p>
           <div className="flex gap-4">
-            <Link
-              to="/logout"
-              className="hover:text-primary transition-colors"
-            >
-              LOGOUT
-            </Link>
             <Link to="/admin" className="hover:text-primary transition-colors">
               ADMIN
             </Link>
