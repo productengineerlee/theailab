@@ -1,0 +1,18 @@
+{
+  "seo": {
+    "title": "Product",
+    "description": "Introducing The AI Lab's AI education platform, AICE certification preparation, generative AI education, and customized corporate training programs.",
+    "keywords": "AI education platform, AICE, generative AI education, corporate training"
+  },
+  "hero": {
+    "title": "Product",
+    "subtitle": "Introducing The AI Lab's AI education solutions"
+  },
+  "productList": {
+    "viewMore": "Go to Site"
+  },
+  "loading": "Loading...",
+  "error": "Failed to load data.",
+  "noProducts": "No products registered yet."
+}
+

@@ -1,0 +1,26 @@
+{
+  "seo": {
+    "title": "IR",
+    "description": "Check The AI Lab's investor information and company details."
+  },
+  "hero": {
+    "title": "IR",
+    "subtitle": "Investor Relations"
+  },
+  "companyInfo": {
+    "title": "Company Information",
+    "companyName": "Company Name",
+    "ceo": "CEO",
+    "founded": "Founded",
+    "address": "Address",
+    "businessNumber": "Business Registration Number",
+    "ecommerceNumber": "E-commerce Registration Number"
+  },
+  "investmentInquiry": {
+    "title": "Investment Inquiry",
+    "description": "For investment-related inquiries, please contact us using the information below.",
+    "email": "E-mail",
+    "tel": "Tel"
+  }
+}
+

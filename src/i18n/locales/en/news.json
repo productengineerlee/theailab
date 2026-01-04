@@ -1,0 +1,16 @@
+{
+  "seo": {
+    "title": "News",
+    "description": "Check out the latest news and activities from The AI Lab."
+  },
+  "hero": {
+    "title": "News",
+    "subtitle": "Stay updated with The AI Lab's latest news"
+  },
+  "loading": "Loading...",
+  "error": "Failed to load data.",
+  "noNews": "No news available.",
+  "viewMore": "View More",
+  "viewLess": "View Less"
+}
+

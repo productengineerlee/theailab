@@ -1,0 +1,41 @@
+{
+  "hero": {
+    "title": "AI for All",
+    "subtitle": "인공지능 시대,",
+    "subtitle2": "누구나 배우고 활용할 수 있습니다",
+    "description": "더에이아이랩은 AI 교육과 솔루션을 통해 모두가 인공지능을 이해하고 활용할 수 있는 세상을 만들어갑니다.",
+    "cta": "시작하기"
+  },
+  "features": {
+    "title": "왜 더에이아이랩인가요?",
+    "subtitle": "우리는 AI 교육의 새로운 기준을 제시합니다",
+    "feature1": {
+      "title": "실전 중심 교육",
+      "description": "이론뿐만 아니라 실제 프로젝트를 통해 AI를 배웁니다"
+    },
+    "feature2": {
+      "title": "전문가 멘토링",
+      "description": "현업 AI 전문가들의 1:1 멘토링을 받을 수 있습니다"
+    },
+    "feature3": {
+      "title": "맞춤형 커리큘럼",
+      "description": "개인의 수준과 목표에 맞춘 학습 경로를 제공합니다"
+    },
+    "feature4": {
+      "title": "취업 연계",
+      "description": "교육 수료 후 AI 기업 취업을 지원합니다"
+    }
+  },
+  "stats": {
+    "students": "교육생",
+    "courses": "강좌",
+    "satisfaction": "만족도",
+    "employment": "취업률"
+  },
+  "cta": {
+    "title": "지금 바로 시작하세요",
+    "description": "AI 교육의 새로운 경험, 더에이아이랩과 함께하세요",
+    "button": "무료 상담 신청"
+  }
+}
+

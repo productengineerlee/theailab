@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "title": "About Us",
+    "badge": "더에이아이랩을 소개합니다",
+    "description": "누구나 쉽고, 실질적으로 활용할 수 있는 보편적 인공지능 시대를 지향합니다."
+  },
+  "vision": {
+    "badge": "VISION",
+    "title": "비전",
+    "titleEn": "AI for Education, Education for AI",
+    "titleKo": "교육을 위한 AI, AI를 위한 교육",
+    "description": "교육은 AI 시대를 준비하는 가장 강력한 도구이며, AI는 교육을 혁신하는 가장 효과적인 수단입니다. 더에이아이랩은 이 선순환 구조를 만들어, AI 리터러시가 보편화된 사회를 실현합니다."
+  },
+  "mission": {
+    "badge": "MISSION",
+    "title": "미션",
+    "titleEn": "AI for Everyone, for Everything",
+    "titleKo": "모든 사람을 위한, 모든 것을 위한 AI",
+    "description": "인공지능이 특정 분야나 소수의 전문가에게만 국한되지 않고, 누구나 자신의 삶과 일에서 AI를 자유롭게 활용할 수 있도록 합니다."
+  },
+  "history": {
+    "title": "그동안의 발자취",
+    "subtitle": "더에이아이랩의 성장 여정",
+    "majorCategory": {
+      "aice": "AICE",
+      "aiEducation": "AI교육",
+      "certification": "자격증"
+    },
+    "noHistory": "아직 등록된 히스토리가 없습니다."
+  },
+  "cta": {
+    "title": "함께 만들어가는 AI 시대",
+    "description": "더에이아이랩과 함께 AI의 미래를 준비하세요",
+    "button": "문의하기"
+  }
+}
+

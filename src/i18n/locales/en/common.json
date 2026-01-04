@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "culture": "Culture",
+    "product": "Product",
+    "news": "News",
+    "partner": "Partner",
+    "career": "Career",
+    "ir": "IR",
+    "admin": "Admin"
+  },
+  "footer": {
+    "company": "The AI Lab",
+    "description": "AI Education Platform & Solution Provider",
+    "contact": "Contact Us",
+    "address": "Gangnam-gu, Seoul, South Korea",
+    "email": "info@theailab.kr",
+    "phone": "+82-2-1234-5678",
+    "copyright": "© 2024 The AI Lab. All rights reserved.",
+    "quickLinks": "Quick Links",
+    "followUs": "Follow Us"
+  },
+  "language": {
+    "korean": "한국어",
+    "english": "English",
+    "selectLanguage": "Select Language"
+  },
+  "common": {
+    "menu": "Menu",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "readMore": "Read More",
+    "viewAll": "View All",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "close": "Close",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous"
+  }
+}
+

@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "title": "About Us",
+    "badge": "Introducing The AI Lab",
+    "description": "We aim for a universal AI era where everyone can easily and practically use AI."
+  },
+  "vision": {
+    "badge": "VISION",
+    "title": "Vision",
+    "titleEn": "AI for Education, Education for AI",
+    "titleKo": "AI for Education, Education for AI",
+    "description": "Education is the most powerful tool for preparing for the AI era, and AI is the most effective means of innovating education. The AI Lab creates this virtuous cycle, realizing a society where AI literacy is universal."
+  },
+  "mission": {
+    "badge": "MISSION",
+    "title": "Mission",
+    "titleEn": "AI for Everyone, for Everything",
+    "titleKo": "AI for Everyone, for Everything",
+    "description": "Artificial intelligence is not limited to specific fields or a few experts, but enables everyone to freely utilize AI in their lives and work."
+  },
+  "history": {
+    "title": "Our Journey",
+    "subtitle": "The AI Lab's Growth Story",
+    "majorCategory": {
+      "aice": "AICE",
+      "aiEducation": "AI Education",
+      "certification": "Certification"
+    },
+    "noHistory": "No history registered yet."
+  },
+  "cta": {
+    "title": "Building the AI Era Together",
+    "description": "Prepare for the future of AI with The AI Lab",
+    "button": "Contact Us"
+  }
+}
+

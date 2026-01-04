@@ -1,0 +1,23 @@
+{
+  "seo": {
+    "title": "기업문화",
+    "description": "일이 즐겁도록. 더에이아이랩의 기업문화 7가지 원칙, 업무방식, 팀워크 문화를 소개합니다.",
+    "keywords": "기업문화, AI기업, 스타트업, 더에이아이랩"
+  },
+  "hero": {
+    "title": "Our Culture",
+    "subtitle": "일이 즐겁도록",
+    "description": ""
+  },
+  "sections": {
+    "hero": "Hero 섹션",
+    "principle": "우리의 기업문화",
+    "workMethod": "업무방식",
+    "cultureValue": "존중과 이해, 상호작용과 소통",
+    "cultureValueSubtitle": "우리가 함께 만들어가는 문화"
+  },
+  "loading": "문화 정보를 불러오는 중...",
+  "error": "데이터를 불러오는데 실패했습니다.",
+  "noData": "등록된 내용이 없습니다."
+}
+

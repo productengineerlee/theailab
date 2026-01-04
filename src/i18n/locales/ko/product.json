@@ -1,0 +1,18 @@
+{
+  "seo": {
+    "title": "제품",
+    "description": "더에이아이랩의 AI 교육 플랫폼, AICE 자격증 대비, 생성형 AI 교육, 기업 맞춤 교육 프로그램을 소개합니다.",
+    "keywords": "AI교육플랫폼, AICE, 생성형AI교육, 기업교육"
+  },
+  "hero": {
+    "title": "Product",
+    "subtitle": "더에이아이랩의 AI 교육 솔루션을 소개합니다"
+  },
+  "productList": {
+    "viewMore": "바로가기"
+  },
+  "loading": "로딩 중...",
+  "error": "데이터를 불러오는 데 실패했습니다.",
+  "noProducts": "아직 등록된 제품이 없습니다."
+}
+

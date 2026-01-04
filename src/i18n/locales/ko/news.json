@@ -1,0 +1,16 @@
+{
+  "seo": {
+    "title": "News",
+    "description": "더에이아이랩의 최신 소식과 활동 내역을 확인하세요."
+  },
+  "hero": {
+    "title": "News",
+    "subtitle": "더에이아이랩의 최신 소식을 전해드립니다"
+  },
+  "loading": "로딩 중...",
+  "error": "데이터를 불러오는 데 실패했습니다.",
+  "noNews": "등록된 소식이 없습니다.",
+  "viewMore": "더 보기",
+  "viewLess": "접기"
+}
+

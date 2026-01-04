@@ -1,0 +1,45 @@
+{
+  "seo": {
+    "title": "Careers",
+    "description": "We are looking for talent to grow with The AI Lab. Join our edtech startup that dreams of becoming the Amazon of the education market.",
+    "keywords": "AI education, AI jobs, artificial intelligence, careers, The AI Lab jobs, edtech"
+  },
+  "hero": {
+    "title": "Career",
+    "subtitle": "An edtech startup dreaming of becoming the Amazon of education"
+  },
+  "intro": {
+    "paragraph1": "The AI Lab Co., Ltd. is an edtech startup that dreams of becoming the Amazon of the education market.",
+    "paragraph2": "As a startup, we can't promise you'll only do what you want or have perfect work-life balance. However, if you have the passion and ambition to build something great, you'll find colleagues who will help make it happen, making this an enjoyable place to work.",
+    "paragraph3": "We're looking for people who find greater joy and purpose in collaborating with others and dedicating their passion to meaningful work. If you're passionate about creating meaningful results in education and think you'd be a good fit, please feel free to apply."
+  },
+  "benefits": {
+    "title": "Benefits & Welfare",
+    "subtitle": "Various benefits provided by The AI Lab"
+  },
+  "process": {
+    "title": "Interview Process",
+    "subtitle": "Transparent and fair recruitment process"
+  },
+  "positions": {
+    "title": "Who Are We Hiring?",
+    "loadingJobs": "Loading job openings...",
+    "noJobs1": "There are no open positions at the moment.",
+    "noJobs2": "For recruitment inquiries, please contact us via email."
+  },
+  "contact": {
+    "title": "Application Documents",
+    "description": "For job applications and recruitment inquiries, please contact us via email."
+  },
+  "location": {
+    "title": "Work Location",
+    "headquarters": "The AI Lab Headquarters",
+    "address": "804, 324 Yeongdong-daero, Gangnam-gu, Seoul, South Korea",
+    "mapTitle": "The AI Lab Location"
+  },
+  "loading": "Loading...",
+  "noBenefits": "No benefits information available.",
+  "noProcess": "No recruitment process information available.",
+  "noJobs": "No job openings available."
+}
+

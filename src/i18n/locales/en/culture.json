@@ -1,0 +1,23 @@
+{
+  "seo": {
+    "title": "Corporate Culture",
+    "description": "Making work enjoyable. Discover The AI Lab's 7 cultural principles, work methods, and teamwork culture.",
+    "keywords": "corporate culture, AI company, startup, The AI Lab"
+  },
+  "hero": {
+    "title": "Our Culture",
+    "subtitle": "Making Work Enjoyable",
+    "description": ""
+  },
+  "sections": {
+    "hero": "Hero Section",
+    "principle": "Our Corporate Culture",
+    "workMethod": "Work Methods",
+    "cultureValue": "Respect, Understanding, Interaction and Communication",
+    "cultureValueSubtitle": "The culture we build together"
+  },
+  "loading": "Loading culture information...",
+  "error": "Failed to load data.",
+  "noData": "No content registered."
+}
+

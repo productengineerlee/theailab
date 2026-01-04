@@ -1,0 +1,195 @@
+{
+  "version": "2.0",
+  "lastModified": "2026-01-03T00:00:00.000Z",
+  "projectName": "더에이아이랩 홈페이지",
+  "projectDescription": "React + TypeScript + Vite 기반 더에이아이랩 공식 홈페이지 개발",
+  "currentTag": "master",
+  "tags": {
+    "master": {
+      "description": "메인 개발 태스크",
+      "tasks": [
+        {
+          "id": 1,
+          "title": "프로젝트 초기 설정 및 라우팅 구성",
+          "description": "React Router 설정, 기본 폴더 구조 생성, 필요한 shadcn/ui 컴포넌트 설치",
+          "status": "pending",
+          "priority": "high",
+          "dependencies": [],
+          "details": "1. React Router v6 설치 및 설정\n2. 폴더 구조 생성: pages/, components/, layouts/, lib/, hooks/, assets/\n3. 기본 shadcn/ui 컴포넌트 설치: button, card, dialog, dropdown-menu, tabs, accordion\n4. 라우트 정의: /, /history, /culture, /product, /news, /partner, /career\n5. 404 페이지 추가\n6. path alias 확인 (이미 설정되어 있음)",
+          "testStrategy": "모든 라우트가 정상적으로 렌더링되는지 확인. 잘못된 경로 접근 시 404 페이지 표시 확인."
+        },
+        {
+          "id": 2,
+          "title": "Header 컴포넌트 개발",
+          "description": "전역 네비게이션 헤더 컴포넌트 구현 (로고, 메뉴, 반응형)",
+          "status": "pending",
+          "priority": "high",
+          "dependencies": [1],
+          "details": "1. Header.tsx 컴포넌트 생성\n2. 로고: '더에이아이랩' 텍스트 로고\n3. 데스크톱 메뉴: About, History, Culture, Product, News, Partner, Career\n4. 모바일 햄버거 메뉴 구현 (shadcn/ui Sheet 컴포넌트 활용)\n5. 현재 경로 하이라이트\n6. 스크롤 시 배경 변경 효과 (useScroll hook)\n7. Tailwind CSS로 스타일링",
+          "testStrategy": "모바일/데스크톱 반응형 동작 확인. 메뉴 클릭 시 페이지 이동 확인. 스크롤 효과 확인."
+        },
+        {
+          "id": 3,
+          "title": "Footer 컴포넌트 개발",
+          "description": "전역 풋터 컴포넌트 구현 (회사 정보 표시)",
+          "status": "pending",
+          "priority": "medium",
+          "dependencies": [1],
+          "details": "1. Footer.tsx 컴포넌트 생성\n2. 회사 로고 및 슬로건: 'The AI Lab | 인공지능 교육의 미래를 만듭니다.'\n3. 회사 정보 표시:\n   - 법인상호명: 더에이아이랩(주)\n   - 대표이사: 최영준\n   - 주소: 서울시 강남구 선릉로 108길 9, 5층\n   - 이메일: contact@theailab.co\n   - 전화: 02-2039-9355\n   - 팩스: 02-2039-9356\n   - 통신판매신고번호: 제 2020-서울강남-02380\n   - 사업자등록번호: 439-87-00757\n4. Copyright 표시: '(c) 2020. The AI Lab. All rights reserved'\n5. LOGOUT / ADMIN 링크 (추후 기능 연동)\n6. 반응형 레이아웃",
+          "testStrategy": "모든 정보가 정확히 표시되는지 확인. 모바일/데스크톱 레이아웃 확인."
+        },
+        {
+          "id": 4,
+          "title": "About 페이지 (랜딩) 개발",
+          "description": "메인 랜딩 페이지 구현 - Hero, 미션, 비전 섹션",
+          "status": "pending",
+          "priority": "high",
+          "dependencies": [2, 3],
+          "details": "1. About.tsx 페이지 컴포넌트 생성\n2. Hero 섹션:\n   - 타이틀: 'ABOUT US'\n   - 서브타이틀: 회사 소개 문구\n   - 시각적 배경 또는 이미지\n3. 미션 섹션:\n   - 'AI for Everyone, for Everything'\n   - 설명 텍스트\n   - 2열 그리드 레이아웃 (아이콘 + 텍스트)\n4. 비전 섹션:\n   - 'AI for Education, Education for AI'\n   - 설명 텍스트\n   - 강조 카드 디자인\n5. 부드러운 스크롤 애니메이션 (선택적)\n6. 반응형 디자인",
+          "testStrategy": "모든 섹션이 정상 표시되는지 확인. 반응형 레이아웃 동작 확인. 텍스트 가독성 확인."
+        },
+        {
+          "id": 5,
+          "title": "History 페이지 개발",
+          "description": "2025년 활동 이력을 타임라인 형식으로 표시하는 페이지 구현",
+          "status": "pending",
+          "priority": "high",
+          "dependencies": [2, 3],
+          "details": "1. History.tsx 페이지 컴포넌트 생성\n2. 페이지 타이틀: '그동안의 발자취'\n3. 타임라인 컴포넌트 개발:\n   - 1월~12월 데이터 구조 정의\n   - 각 월별 카드 또는 수직 타임라인 UI\n   - 호버 효과\n4. 2025년 활동 데이터:\n   - 각 월별 주요 활동 텍스트\n   - 기관명, 교육명 하이라이트\n5. 이미지 플레이스홀더 (추후 admin 연동)\n6. 반응형 레이아웃\n7. shadcn/ui Card 컴포넌트 활용",
+          "testStrategy": "모든 월별 데이터가 정확히 표시되는지 확인. 타임라인 레이아웃 확인. 반응형 동작 확인."
+        },
+        {
+          "id": 6,
+          "title": "Culture 페이지 - 메인 섹션 개발",
+          "description": "기업문화 소개 메인 섹션 구현",
+          "status": "pending",
+          "priority": "high",
+          "dependencies": [2, 3],
+          "details": "1. Culture.tsx 페이지 컴포넌트 생성\n2. 메인 배너:\n   - '일이 즐겁도록'\n   - 'OUR TEAM' 타이틀\n   - 소개 문구\n3. '우리의 기업문화' 섹션:\n   - 7가지 원칙 리스트\n   - 각 항목 카드 형태\n   - 아이콘 또는 번호 표시\n4. 반응형 그리드 레이아웃 (1열 → 2열 → 3열)\n5. 부드러운 페이드인 애니메이션 (선택적)",
+          "testStrategy": "7가지 원칙이 모두 표시되는지 확인. 카드 레이아웃 확인. 반응형 동작 확인."
+        },
+        {
+          "id": 7,
+          "title": "Culture 페이지 - 업무방식 섹션 개발",
+          "description": "업무방식 6가지 항목을 아이콘과 함께 표시",
+          "status": "pending",
+          "priority": "medium",
+          "dependencies": [6],
+          "details": "1. 업무방식 섹션 추가\n2. 6가지 항목:\n   - 한계를 뛰어넘는 목표와 퍼포먼스\n   - 투명한 공유\n   - 유연한 팀과 책임감있는 리더십\n   - 자기성찰과 피드백\n   - 적극적인 커뮤니케이션\n   - Open Door Policy\n3. 각 항목:\n   - 번호 (01-06)\n   - 아이콘 이미지 (lucide-react 아이콘 또는 이미지)\n   - 제목\n   - 상세 설명\n4. 2열 그리드 레이아웃\n5. shadcn/ui Card 컴포넌트 활용",
+          "testStrategy": "6가지 항목이 모두 정확히 표시되는지 확인. 아이콘과 텍스트 배치 확인."
+        },
+        {
+          "id": 8,
+          "title": "Culture 페이지 - 팀워크 섹션 개발",
+          "description": "팀워크 가치 7가지 항목 표시",
+          "status": "pending",
+          "priority": "medium",
+          "dependencies": [6],
+          "details": "1. 팀워크 섹션 추가\n2. 7가지 가치:\n   - 우리는 함께 이 정글을 헤쳐나갈 동료입니다\n   - 서로를 인정하고 칭찬하고 돕습니다\n   - 소통을 위한 용기\n   - 이타심과 선한 영향력\n   - 나 먼저, 함께 역지사지\n   - 생각하는 동료\n   - 편견을 가지지 않고 차별하지 않습니다\n   - 틀린 것이 아니라 다른 것 입니다\n3. 리스트 또는 카드 형식\n4. 각 항목 제목 + 설명\n5. 아코디언 또는 확장 가능한 UI (선택적)",
+          "testStrategy": "7가지 가치가 모두 표시되고 읽기 쉬운지 확인."
+        },
+        {
+          "id": 9,
+          "title": "Career 페이지 - 메인 및 혜택 섹션 개발",
+          "description": "채용 소개 및 혜택 복지 7가지 표시",
+          "status": "pending",
+          "priority": "high",
+          "dependencies": [2, 3],
+          "details": "1. Career.tsx 페이지 컴포넌트 생성\n2. 메인 섹션:\n   - 'CAREER' 타이틀\n   - 회사 소개 및 인재상\n3. 혜택 및 복지 섹션:\n   - 7가지 혜택 리스트\n   - 각 항목: 번호 (01-07), 제목, 아이콘/이미지\n   - 그리드 레이아웃 (2열 또는 3열)\n4. shadcn/ui Card 컴포넌트 활용\n5. 반응형 디자인",
+          "testStrategy": "7가지 혜택이 모두 표시되는지 확인. 레이아웃 및 반응형 동작 확인."
+        },
+        {
+          "id": 10,
+          "title": "Career 페이지 - 면접절차 및 지원정보 개발",
+          "description": "면접 4단계 프로세스와 지원 정보 표시",
+          "status": "pending",
+          "priority": "medium",
+          "dependencies": [9],
+          "details": "1. 면접절차 섹션:\n   - 4단계 프로세스 (1차 서류, 2차 실무, 3차 임원, 최종 합격)\n   - 시각적 프로세스 플로우 (화살표 또는 번호)\n   - 각 단계 아이콘/이미지\n2. 채용 정보 섹션:\n   - '누굴 뽑나요?' (플레이스홀더 텍스트)\n   - 제출 서류 안내\n   - 채용 지원 이메일: sanders@codingx.ai\n3. 근무지역 섹션:\n   - 주소 표시\n   - 지도 임베드 (Google Maps 또는 플레이스홀더)\n4. CTA 버튼: '지원하기' (mailto 링크)",
+          "testStrategy": "면접 단계가 명확히 표시되는지 확인. 이메일 링크 동작 확인."
+        },
+        {
+          "id": 11,
+          "title": "Product 페이지 개발 (정적 데이터)",
+          "description": "제품 소개 페이지 구현 (초기 정적 데이터)",
+          "status": "pending",
+          "priority": "medium",
+          "dependencies": [2, 3],
+          "details": "1. Product.tsx 페이지 컴포넌트 생성\n2. 페이지 타이틀: 'PRODUCT' 또는 '우리의 제품'\n3. 제품 카드 그리드:\n   - 더미 제품 데이터 (2-3개)\n   - 각 카드: 썸네일, 제목, 간단한 설명\n   - shadcn/ui Card 컴포넌트\n4. 호버 효과\n5. 상세보기 모달 또는 별도 페이지 (선택적)\n6. Admin 연동을 위한 데이터 구조 설계\n7. 반응형 그리드 (1열 → 2열 → 3열)",
+          "testStrategy": "제품 카드가 정상 표시되는지 확인. 반응형 동작 확인."
+        },
+        {
+          "id": 12,
+          "title": "News 페이지 개발 (정적 데이터)",
+          "description": "뉴스/공지사항 페이지 구현 (초기 정적 데이터)",
+          "status": "pending",
+          "priority": "medium",
+          "dependencies": [2, 3],
+          "details": "1. News.tsx 페이지 컴포넌트 생성\n2. 페이지 타이틀: 'NEWS' 또는 '소식'\n3. 뉴스 리스트:\n   - 더미 뉴스 데이터 (5-6개)\n   - 각 항목: 날짜, 썸네일, 제목, 요약\n   - 리스트 또는 그리드 형식\n4. 페이지네이션 또는 '더보기' 버튼\n5. 상세보기 페이지 또는 모달\n6. Admin 연동을 위한 데이터 구조 설계\n7. 반응형 레이아웃",
+          "testStrategy": "뉴스 목록이 정상 표시되는지 확인. 페이지네이션 동작 확인."
+        },
+        {
+          "id": 13,
+          "title": "Partner 페이지 개발 (정적 데이터)",
+          "description": "파트너사 로고 그리드 페이지 구현",
+          "status": "pending",
+          "priority": "low",
+          "dependencies": [2, 3],
+          "details": "1. Partner.tsx 페이지 컴포넌트 생성\n2. 페이지 타이틀: 'PARTNER' 또는 '파트너'\n3. 파트너 로고 그리드:\n   - 더미 파트너 로고 이미지 (10-15개)\n   - 균일한 크기의 그리드 레이아웃\n   - 로고 이미지 + 회사명 (선택적)\n4. 호버 효과 (확대 또는 그림자)\n5. Admin 연동을 위한 데이터 구조 설계\n6. 반응형 그리드 (2열 → 4열 → 6열)",
+          "testStrategy": "파트너 로고가 균일하게 표시되는지 확인. 반응형 동작 확인."
+        },
+        {
+          "id": 14,
+          "title": "반응형 디자인 최적화",
+          "description": "모든 페이지의 모바일/태블릿/데스크톱 반응형 완성",
+          "status": "pending",
+          "priority": "high",
+          "dependencies": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+          "details": "1. 모든 페이지 반응형 테스트:\n   - 모바일 (320px ~ 768px)\n   - 태블릿 (768px ~ 1024px)\n   - 데스크톱 (1024px+)\n2. 미디어 쿼리 최적화 (Tailwind breakpoints)\n3. 텍스트 크기 조정\n4. 이미지 및 카드 레이아웃 조정\n5. 터치 타겟 크기 확인 (44x44px 이상)\n6. 모바일 메뉴 동작 확인\n7. 가로/세로 모드 테스트",
+          "testStrategy": "다양한 디바이스 크기에서 테스트. Chrome DevTools 사용. 실제 기기 테스트 (가능하면)."
+        },
+        {
+          "id": 15,
+          "title": "애니메이션 및 인터랙션 추가",
+          "description": "페이지 전환, 스크롤 애니메이션 등 UX 향상",
+          "status": "pending",
+          "priority": "low",
+          "dependencies": [14],
+          "details": "1. 페이지 전환 애니메이션 (React Router transitions)\n2. 스크롤 애니메이션:\n   - Intersection Observer API 활용\n   - 요소 페이드인 효과\n3. 호버 효과 개선:\n   - 카드 확대/그림자\n   - 버튼 트랜지션\n4. 로딩 스피너 또는 스켈레톤 UI\n5. 부드러운 스크롤 (smooth scroll)\n6. Framer Motion 또는 CSS transitions 사용\n7. 성능 영향 최소화",
+          "testStrategy": "애니메이션이 부드럽게 작동하는지 확인. 성능 저하 없는지 확인 (60fps 유지)."
+        },
+        {
+          "id": 16,
+          "title": "SEO 및 메타 태그 최적화",
+          "description": "검색 엔진 최적화 및 소셜 미디어 공유 최적화",
+          "status": "pending",
+          "priority": "medium",
+          "dependencies": [14],
+          "details": "1. React Helmet 또는 Vite plugin 설치\n2. 각 페이지별 메타 태그:\n   - title\n   - description\n   - keywords\n3. Open Graph 태그:\n   - og:title, og:description, og:image, og:url\n4. Twitter Card 태그\n5. 구조화된 데이터 (JSON-LD):\n   - Organization\n   - WebSite\n6. robots.txt 생성\n7. sitemap.xml 생성\n8. favicon 추가",
+          "testStrategy": "각 페이지 메타 태그 확인. Facebook OG Debugger, Twitter Card Validator 테스트."
+        },
+        {
+          "id": 17,
+          "title": "성능 최적화 및 번들 크기 감소",
+          "description": "로딩 속도 개선 및 최적화",
+          "status": "pending",
+          "priority": "medium",
+          "dependencies": [14, 15],
+          "details": "1. 코드 스플리팅:\n   - React.lazy() + Suspense\n   - 라우트 기반 코드 스플리팅\n2. 이미지 최적화:\n   - WebP 포맷 변환\n   - lazy loading (loading='lazy')\n   - 적절한 이미지 크기 사용\n3. 폰트 최적화:\n   - font-display: swap\n   - subset 폰트 사용\n4. 번들 분석:\n   - vite-plugin-visualizer\n   - 불필요한 dependency 제거\n5. 트리 쉐이킹 확인\n6. Lighthouse 성능 측정\n7. Core Web Vitals 개선",
+          "testStrategy": "Lighthouse 점수 90점 이상 목표. 페이지 로드 시간 3초 이내. 번들 크기 확인."
+        },
+        {
+          "id": 18,
+          "title": "배포 및 최종 테스트",
+          "description": "프로덕션 빌드, 배포, 크로스 브라우저 테스트",
+          "status": "pending",
+          "priority": "high",
+          "dependencies": [16, 17],
+          "details": "1. 환경 변수 설정 (.env.production)\n2. 프로덕션 빌드:\n   - npm run build\n   - 빌드 에러 확인\n3. 빌드 결과 미리보기 (npm run preview)\n4. 호스팅 플랫폼 선택 (Vercel, Netlify, etc.)\n5. 배포 설정 및 실행\n6. 크로스 브라우저 테스트:\n   - Chrome, Safari, Firefox, Edge\n   - 모바일 브라우저 (iOS Safari, Chrome Mobile)\n7. 최종 QA:\n   - 모든 링크 동작 확인\n   - 모든 페이지 렌더링 확인\n   - 반응형 동작 재확인\n   - 성능 재측정\n8. 도메인 연결 (필요시)\n9. Google Analytics 설정 (선택적)\n10. 모니터링 설정 (Sentry 등)",
+          "testStrategy": "실제 배포 환경에서 모든 기능 테스트. 다양한 브라우저 및 기기에서 확인."
+        }
+      ]
+    }
+  }
+}
+

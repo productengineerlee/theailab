@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "culture": "Culture",
+    "product": "Product",
+    "news": "News",
+    "partner": "Partner",
+    "career": "Career",
+    "ir": "IR",
+    "admin": "Admin"
+  },
+  "footer": {
+    "company": "더에이아이랩",
+    "description": "AI 교육 플랫폼 및 솔루션 제공",
+    "contact": "문의하기",
+    "address": "서울특별시 강남구",
+    "email": "info@theailab.kr",
+    "phone": "02-1234-5678",
+    "copyright": "© 2024 더에이아이랩. All rights reserved.",
+    "quickLinks": "바로가기",
+    "followUs": "팔로우"
+  },
+  "language": {
+    "korean": "한국어",
+    "english": "English",
+    "selectLanguage": "언어 선택"
+  },
+  "common": {
+    "menu": "메뉴",
+    "learnMore": "자세히 보기",
+    "getStarted": "시작하기",
+    "contactUs": "문의하기",
+    "readMore": "더 읽기",
+    "viewAll": "전체 보기",
+    "loading": "로딩 중...",
+    "error": "오류가 발생했습니다",
+    "submit": "제출",
+    "cancel": "취소",
+    "save": "저장",
+    "edit": "수정",
+    "delete": "삭제",
+    "confirm": "확인",
+    "close": "닫기",
+    "search": "검색",
+    "filter": "필터",
+    "sort": "정렬",
+    "back": "뒤로가기",
+    "next": "다음",
+    "previous": "이전"
+  }
+}
+

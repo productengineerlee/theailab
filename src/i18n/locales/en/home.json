@@ -1,0 +1,41 @@
+{
+  "hero": {
+    "title": "AI for All",
+    "subtitle": "In the Age of AI,",
+    "subtitle2": "Everyone Can Learn and Apply",
+    "description": "The AI Lab creates a world where everyone can understand and utilize artificial intelligence through AI education and solutions.",
+    "cta": "Get Started"
+  },
+  "features": {
+    "title": "Why The AI Lab?",
+    "subtitle": "We set new standards in AI education",
+    "feature1": {
+      "title": "Practice-Oriented Education",
+      "description": "Learn AI through real projects, not just theory"
+    },
+    "feature2": {
+      "title": "Expert Mentoring",
+      "description": "Get 1:1 mentoring from professional AI experts"
+    },
+    "feature3": {
+      "title": "Customized Curriculum",
+      "description": "Provides learning paths tailored to individual levels and goals"
+    },
+    "feature4": {
+      "title": "Career Support",
+      "description": "Support employment at AI companies after course completion"
+    }
+  },
+  "stats": {
+    "students": "Students",
+    "courses": "Courses",
+    "satisfaction": "Satisfaction",
+    "employment": "Employment Rate"
+  },
+  "cta": {
+    "title": "Start Now",
+    "description": "Experience a new level of AI education with The AI Lab",
+    "button": "Request Free Consultation"
+  }
+}
+

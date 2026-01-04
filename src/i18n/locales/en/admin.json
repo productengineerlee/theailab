@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "history": "History",
+    "career": "Career",
+    "partner": "Partner",
+    "about": "About",
+    "culture": "Culture"
+  },
+  "common": {
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "search": "Search",
+    "filter": "Filter",
+    "upload": "Upload",
+    "download": "Download",
+    "preview": "Preview",
+    "required": "Required",
+    "optional": "Optional",
+    "success": "Success",
+    "error": "Error",
+    "loading": "Loading...",
+    "noData": "No data available"
+  },
+  "form": {
+    "title": "Title",
+    "subtitle": "Subtitle",
+    "content": "Content",
+    "description": "Description",
+    "image": "Image",
+    "date": "Date",
+    "category": "Category",
+    "status": "Status",
+    "order": "Order"
+  },
+  "messages": {
+    "saveSuccess": "Saved successfully",
+    "saveError": "Failed to save",
+    "deleteSuccess": "Deleted successfully",
+    "deleteError": "Failed to delete",
+    "updateSuccess": "Updated successfully",
+    "updateError": "Failed to update",
+    "uploadSuccess": "Uploaded successfully",
+    "uploadError": "Failed to upload",
+    "confirmDelete": "Are you sure you want to delete?"
+  }
+}
+
